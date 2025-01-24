@@ -5,7 +5,7 @@ function my_plugin_update_check($transient) {
     }
 
     $plugin_slug = plugin_basename(dirname(__FILE__, 2) . '/vshop-core.php');
-    $repo_url = 'https://api.github.com/repos/ridhwanahsan/vshop-core/releases/latest';
+    $repo_url = 'https://api.github.com/repos/your-name/file/releases/latest';
     $access_token = defined('GITHUB_ACCESS_TOKEN') ? GITHUB_ACCESS_TOKEN : '';
 
     $args = [
